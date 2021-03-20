@@ -1,0 +1,19 @@
+title: Learn image processing with Azure Serverless
+description: >-
+  In this lab, you will setup and configure a serverless architecture within
+  Azure using serverless services: Functions, Logic Apps, Event Grid, Cosmos DB,
+  Storage and Cognitive Services.
+template:
+  repo: learn-image-processing-with-azure-serverless-template
+  name: learn-image-processing-with-azure-serverless
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
